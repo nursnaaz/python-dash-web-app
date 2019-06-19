@@ -1,4 +1,4 @@
-# Bigfoot Sightings Dash App
+# Dash App
 
 This is an example of an app built with Plotly's [Dash](https://plot.ly/products/dash/) framework.
 It's an exploratory app based on the [Bigfoot Sightings](https://data.world/timothyrenner/bfro-sightings-data) dataset I hosted on data.world.
@@ -13,8 +13,8 @@ Create an environment with virtualenv or conda.
 For conda,
 
 ```
-conda create --name bigfoot-sightings-dash python=3.6
-source activate bigfoot-sightings-dash
+conda create --name dash python=3.6
+source activate dash
 ```
 
 Install the stuff in `requirements.txt`.
@@ -32,3 +32,5 @@ Launch the app.
 ```
 python app.py
 ```
+
+Credits: https://github.com/timothyrenner/bigfoot-dash-app
